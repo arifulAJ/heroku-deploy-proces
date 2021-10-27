@@ -53,7 +53,7 @@ run().catch(console.dir);
 app.get('/',(req,res)=>{
    
  
-    res.send("the name of the express car");
+    res.send("the name of the express car to wash");
 })
 app.get('/hello',(req,res)=>{
     console.log("object");
